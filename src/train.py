@@ -41,6 +41,6 @@ if __name__ == "__main__":
     pa.add_argument("--batch",  type=int, default=128)
     pa.add_argument("--lr",     type=float, default=3e-4)
     pa.add_argument("--T",      type=int, default=1000)
-    pa.add_argument("--cond_dim", type=int, default=128)
+    pa.add_argument("--cond_dim", type=int, default=512)
     pa.add_argument("--save_every", type=int, default=10)
     main(pa.parse_args())
